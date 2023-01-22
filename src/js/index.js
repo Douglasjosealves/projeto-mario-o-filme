@@ -13,7 +13,7 @@ botaoTrailer.addEventListener("click", () => {
    video.setAttribute("src", linkDoVideo);
 });
 
-botaoFecharModal.addEventListener("click", ()=> {
+botaoFecharModal.addEventListener("click", () => {
    alternarModal();
-   Video.setAttribute("src", "");   
+   video.setAttribute("src", "");   
 });
